@@ -1,0 +1,289 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Josefin Slab', serif;
+    letter-spacing: .5px;
+    background-color: rgba(0,0,0,0.03);
+}
+
+.fixed {
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 1;
+}
+
+.inline {
+    display: inline;
+}
+
+.text-input {
+    display: inline;
+    padding:5px 5px;
+}
+
+
+
+
+/* NAV BUTTONS CODE */
+
+.nav-button:hover {
+    cursor: pointer;
+    cursor: hand;
+    opacity: 0.8;
+}
+#cl-icon {
+    background-color: #0033CC;
+    opacity: 0.8;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    top: 33px;
+    margin-left: 10px;
+    z-index: 5;
+}
+#cl-icon:hover {
+    opacity: 0.6;
+}
+#cl-text {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 700;
+}
+#profile-icon {
+    position: fixed;
+    top: 33px;
+    margin-left: 50px;
+    z-index: 5;
+    height: 30px;
+	width: 30px;
+}
+#post-icon {
+    position: fixed;
+    top: 33px;
+    margin-left: 90px;
+    z-index: 5;
+    height: 30px;
+	width: 30px;
+}
+
+
+
+
+
+
+/* SEARCH BAR CODE */
+
+#searchOuterWrapper {
+    height: 190px;
+    top: -5px;
+    width: 100%;
+    position: fixed;
+}
+
+#searchWrapper {
+    background-color: white;
+    padding-top: 20px;
+    height: 75px;
+    top: -5px;
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+}
+
+form {
+    height: 50px;
+}
+
+select {
+    background-color: #FFFFFF;
+    border: 1px solid #DADADA;
+    font-size: 17px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    height: 45px;
+    width: 100px;
+    color: #D0D0D0;
+    position: relative;
+    right: -10px;
+    top: -1px;
+}
+
+select:focus {
+    outline: 0;
+}
+
+#searchBar {
+    font-size: 30px;
+}
+
+#searchText {
+    font-weight: 300;
+    margin: 0;
+    position: relative;
+    bottom: -7px;
+    right: -10px;
+}
+
+
+#search {
+    width: 250px;
+    height: 45px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    font-weight: 100;
+    border: 1px solid #DADADA;
+}
+
+#search:focus {
+    outline: 0
+}
+
+#nearText {
+    font-weight: 300;
+    font-size: 20px;
+    position: relative;
+    bottom: -7px;
+}
+
+#location {
+    width: 250px;
+    height: 45px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    font-weight: 100;
+    border: 1px solid #DADADA;
+}
+
+#location:focus {
+    outline: 0
+}
+
+#searchButton {
+    position:relative;
+    padding:5px 15px;
+    left:-10px;
+    top:-3.5px;
+    border:0px solid #0033CC;
+    background-color:#0033CC;
+    color: #fafafa;
+    opacity: 0.8;
+    width: 100px;
+    height: 43px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 15px;
+}
+
+#searchButton:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    cursor: hand;
+}
+
+
+
+
+
+
+ /*SEARCH TEXT CODE */
+
+#titlecontainer {
+	width: 100%;
+	height: auto;
+	margin-top: 120px;
+	margin-bottom: 10px;
+}
+
+#header {
+	font-size: 48px;
+	font-weight: bold;
+	padding: 10px 10px 0px;
+	top: 20px;
+}
+
+#subheader {
+	font-size: 24px;
+	font-style: italic;
+	font-weight: lighter;
+	padding: 5px 5px 0px;
+}	
+
+
+
+
+
+
+
+/* SEARCH RESULTS CODE */
+
+#container {
+	height: 100%;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#item_container {
+	height: auto;
+	width: 90%;
+	float: left;
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+}
+
+#thumbnail img {
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin: 0 auto;
+	float: left;
+}
+#thumbnail img:hover {
+	opacity: 0.6;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.itemheader {
+	font-size: 30px;
+	display: inline-block;
+	padding: 10px;
+}
+
+.item_info {
+	padding: 10px;
+	width: 80%;
+	margin-left: 205px;
+	position: relative;
+	top: -10px;
+	z-index: -10;
+}
+.price {
+	margin: 5px 0px;
+}
+.location {
+	margin: 5px 0px;
+}
+.condition {
+	margin: 5px 0px;
+
+}
+.description {
+	margin-top: 15px;
+	line-height: 20px;
+}
+
+
+
+
+
+

@@ -1,0 +1,316 @@
+body {
+	background-color: rgba(0,0,0,0.03);
+	font-family: 'Josefin Slab', serif;
+}
+
+.fixed {
+	position: fixed; 
+	top: 0; 
+	width: 100%;
+	z-index: 1;
+}
+
+.inline {
+	display: inline;
+}
+
+.text-input {
+	display: inline;
+	padding:5px 5px;
+}
+
+
+
+
+
+/* NAV BUTTON CODE STARTS HERE */
+
+.nav-button:hover {
+	cursor: pointer;
+	cursor: hand;
+	opacity: 0.8;
+}
+#cl-icon {
+	background-color: #0033CC;
+	opacity: 0.8;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	position: fixed;
+	top: 33px;
+	margin-left: 10px;
+	z-index: 5;
+}
+#cl-icon:hover {
+	opacity: 0.6;
+}
+#cl-text {
+	position: absolute;
+	text-align: center;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	-moz-transform: translate(-50%, -50%);
+  	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+	color: white;
+	font-weight: 700;
+}
+#profile-icon {
+	position: fixed;
+	top: 33px;
+	margin-left: 50px;
+	z-index: 5;
+	height: 30px;
+	width: 30px;
+}
+#post-icon {
+	position: fixed;
+	top: 33px;
+	margin-left: 90px;
+	z-index: 5;
+	height: 30px;
+	width: 30px;
+}
+
+
+
+
+
+/* TITLE CODE STARTS HERE */
+
+#titleWrapper {
+	left: 0;
+	right: 0;
+	height: 150px;
+	position: relative;
+}
+
+#title {
+	text-align: center;
+	height: 50px;
+	margin-top: 100px;
+	font-size: 500%;
+	color: #0033CC;
+	opacity: 0.8;
+}
+
+
+
+
+
+/* SEARCH BAR CODE STARTS HERE */
+
+#searchOuterWrapper {
+	height: 190px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+#searchWrapper {
+	background-color: white;
+	padding-top: 25px;
+	height: 65px;
+	display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+}
+
+form {
+	height: 75px;
+}
+
+select {
+	background-color: #FFFFFF;
+    border: 1px solid #DADADA;
+    font-size: 17px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    height: 45px;
+    width: 100px;
+	color: #D0D0D0;
+	position: relative;
+	right: -10px;
+	top: -1px;
+}
+
+select:focus {
+	outline: 0;
+}
+
+#searchBar {
+	font-size: 30px;
+}
+
+#searchText {
+	font-weight: 300;
+	margin: 0;
+	position: relative;
+	bottom: -7px;
+	right: -10px;
+}
+
+
+#search {
+	width: 250px;
+	height: 30px;
+	font-family: 'Josefin Slab', serif;
+	font-size: 20px;
+	font-weight: 100;
+	border: 1px solid #DADADA;
+}
+
+#search:focus {
+	outline: 0
+}
+
+#nearText {
+	font-weight: 300;
+	font-size: 20px;
+	position: relative;
+	bottom: -7px;
+}
+
+#location {
+	width: 250px;
+	height: 30px;
+	font-family: 'Josefin Slab', serif;
+	font-size: 20px;
+	font-weight: 100;
+	border: 1px solid #DADADA;
+}
+
+#location:focus {
+	outline: 0
+}
+
+#searchButton {
+	position:relative;
+    padding:5px 15px;
+    left:-10px;
+    top:-4px;
+    border:0px solid #0033CC;
+    background-color:#0033CC;
+    color: #fafafa;
+    opacity: 0.8;
+    width: 100px;
+	height: 43px;
+	font-family: 'Josefin Slab', serif;
+	font-size: 15px;
+}
+
+#searchButton:hover {
+	opacity: 0.6;
+	cursor: pointer;
+	cursor: hand;
+}
+
+
+
+
+
+/*CATEGORIES STUFF STARTS HERE*/
+
+#categoriesWrapper {
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+#categoriesText {
+	text-align: center;
+	font-size: 50px;
+	margin-top: 60px;
+}
+
+#contentWrapper {
+	margin-top: 30px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.row {
+	margin-bottom: 35px;
+}
+
+.cat {
+	display: inline-block; 
+	width: 33%;
+	height: 200px;
+	position: relative;
+	border-radius: 10%;
+}
+.cat:hover {
+	cursor: pointer;
+	cursor: hand;
+}
+
+.cat-text {
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+	font-size: 25px;
+}
+
+.cat-icon {
+	display: block;
+	margin: 0 auto;
+	margin-top: 15px;
+	fill: #0033CC;
+	fill-opacity: 0.6; 
+}
+
+svg path {
+	fill: #0033CC;
+	fill-opacity: 0.6;
+}
+
+.cat:hover {
+	background: rgba(0,0,0,0.03);
+}
+
+#locationsText {
+	text-align: center;
+	font-size: 50px;
+	margin-top: 60px;
+}
+
+
+
+
+
+
+/* BOTTOM STUFF STARTS HERE */
+#bottomWrapper {
+	background-color: white;
+	height: 150px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.credit {
+	margin: 5px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,90 @@
+<html>
+<head>
+	<title>Item View</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets_cList/css/itemView.css" />
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="cl-icon" class="nav-button">
+			<div id="cl-text">CL</div>
+		</div>
+
+		<img id="profile-icon" class="nav-button" src="assets_cList/img/profile.png">
+
+		<img id="post-icon" class="nav-button" src="assets_cList/img/post.png">
+
+		<div id="searchOuterWrapper">
+			<div id="searchWrapper">
+				<form>
+				<div id="searchBar">
+				<div id="searchText" class="inline">Search</div>
+				<select>
+				<option>All</option>
+				<option>Community</option>
+				<option>Housing</option>
+				        <option>Jobs</option>
+				        <option>Personals</option>
+				        <option>For Sale</option>
+				        <option>Discussion Forums</option>
+				        <option>Services</option>
+				        <option>Gigs</option>
+				        <option>Resumes</option>
+				</select>
+				<input id="search" class="text-input" type="text" placeholder="What are you looking for?">
+				<div id="nearText" class="inline">near</div>
+				<input id="location" class="text-input" type="text" placeholder="SF Bay Area">
+				<input id="searchButton" class="inline" type="button" value="Search">
+				</div>
+				</form>
+			</div>
+		</div>
+		<div id="contact-box">
+			<div id="name">Cool Street Bench</div>
+			<div class="details">
+				$100 
+			</div>
+			<div class="details">
+				Berkeley, CA 
+			</div>
+			<div class="details">
+				Condition: new 
+			</div>
+			<div id ="contact">Contact Seller</div>
+			<div id ="other-options">
+				<div class = "icon"><img src = "assets_cList/img/star.png"></div>
+				<div class = "icon"><img src = "assets_cList/img/mail.png"></div>
+				<div class = "icon"><img src = "assets_cList/img/facebook.png"></div>
+				<div class = "icon"><img src = "assets_cList/img/twitter.png"></div>
+			</div>
+		</div>
+		<div id="map"><img src = "assets_cList/img/map.jpg"></div>
+		<div id="container">
+			<div id="image"><img src = "assets_cList/img/bench.jpg"></div>
+			<div id="other-images">
+				<div class = "thumbnail"><img src = "assets_cList/img/bench.jpg"></div>
+				<div class = "thumbnail"><img src = "assets_cList/img/bench.jpg"></div>
+				<div class = "thumbnail"><img src = "assets_cList/img/bench.jpg"></div>
+				<div class = "thumbnail"><img src = "assets_cList/img/bench.jpg"></div>
+			</div>
+			<div id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae purus vulputate, dapibus risus ut, condimentum odio. Suspendisse semper auctor ligula, vel ullamcorper eros consectetur non. Etiam at finibus arcu, non tempor ante. Maecenas tempus interdum tortor, sit amet mollis magna auctor eu. Fusce tristique leo vel quam ultricies lacinia. Fusce massa diam, iaculis at odio tempus, pharetra condimentum ante. Nullam pellentesque elit ac tortor venenatis, nec imperdiet orci venenatis. Etiam imperdiet, justo in vestibulum molestie, neque felis gravida metus, eget tristique elit diam nec lectus. Donec fermentum scelerisque mauris sit amet tincidunt. Curabitur sed ullamcorper odio. Cras leo purus, rhoncus ac tempor et, faucibus vitae felis. Nullam dignissim eu nulla aliquet consequat. Duis dignissim, ex sit amet hendrerit vulputate, quam tortor rhoncus dolor, ut blandit libero tortor venenatis eros.</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+
+			$('#cl-icon').click(function() {
+				window.location = "cListHomepage.html";
+			});
+			$('#searchButton').click(function() {
+				window.location = "listView.html";
+			});
+		});
+	</script>
+
+</body>
+</html>

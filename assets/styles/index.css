@@ -1,0 +1,607 @@
+html, body {
+	margin:0;
+	padding:0;
+	height: 100%;
+	width: 100%;
+	background-color: rgb(245,245,245);
+	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Dosis', sans-serif;
+	color: #5E5E5E;
+}
+
+#fullpage {
+	width: 1000px;
+	height: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+
+#section-container {
+	height: 100%;
+	position: relative;
+}
+
+
+
+
+
+
+
+/*INTRO SECTION*/
+#me {
+	position: absolute;
+	top: calc(5% + 100px);
+	opacity: 0;
+	left: 42%;
+	border-radius: 50%;
+	border-color: #5E5E5E;
+	border-width: 1px;
+	border-style: solid;
+	overflow: hidden;
+	width: 16%;
+	-webkit-transition: 1.5s;
+	-moz-transition: 1.5s;
+	-o-transition: 1.5s;
+	transition: 1.5s;
+}
+
+#intro-text {
+	width: 90%;
+	position: absolute;
+	top: calc(30% + 100px);
+	opacity: 0;
+	left: 5%;
+	font-size: 25px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	line-height: 60px;
+	text-align: center;
+	-webkit-transition: 1.5s;
+	-moz-transition: 1.5s;
+	-o-transition: 1.5s;
+	transition: 1.5s;
+}
+
+#nav {
+	position: absolute;
+	width: 60%;
+	top: 73%;
+	left: 20%;
+	font-size: 40px;
+	font-weight: 300;
+	opacity: 0;
+	-webkit-transition: 2s;
+	-moz-transition: 2s;
+	-o-transition: 2s;
+	transition: 2s;
+
+}
+
+.nav-item {
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+	color: #5E5E5E;
+	text-decoration: none;
+}
+.nav-item:hover {cursor: pointer; font-weight: 400;}
+
+
+
+
+
+
+
+
+/*ABOUT SECTION*/
+/*top mid*/
+#about-title-top {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 4%;
+	font-size: 50px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	display: none;
+}
+
+#mid-container-top {
+	position: absolute;
+	height: 50%;
+	width: 20%;
+	left: 40%;
+	top: 15%;
+	text-align: center;
+	display: none;
+}
+
+.header {
+	font-size: 25px;
+	font-weight: 700;
+}
+.info {
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 1.5px;
+	margin-bottom: 30px;
+}
+
+
+/*bottom mid*/
+#about-title-bottom {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 70%;
+	font-size: 50px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	display: none;
+}
+#mid-container-bottom {
+	position: absolute;
+	height: 20%;
+	width: 50%;
+	left: 25%;
+	top: 82%;
+	text-align: center;
+	display: none;
+}
+
+.comp-container {
+	width: 49%;
+	display: inline-block;
+}
+
+.comp-logo {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+.comp-logo:hover {cursor: pointer; opacity: 0.7}
+
+.comp-text {
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 1.5px;
+}
+
+
+/*left*/
+#left-container {
+	position: absolute;
+	height: 50%;
+	width: 30%;
+	top: 13%;
+	text-align: center;
+	display: none;
+}
+
+.sub-title {
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+}
+
+.sub-info {
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 1.4px;
+	margin-top: 20px;
+}
+
+/*right*/
+#right-container {
+	position: absolute;
+	height: 50%;
+	width: 30%;
+	left: 70%;
+	top: 13%;
+	text-align: center;
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*PROJECTS SECTION*/
+#projects-title {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 4%;
+	font-size: 50px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	display: none;
+}
+
+#projects-container {
+	width: 100%;
+	position: absolute;
+	top: 15%;
+	height: 85%;
+}
+
+.project {
+	width: 24.75%;
+	display: inline-block;
+	margin-top: 100px;
+	opacity: 0;
+	-webkit-transition: 1.5s;
+	-moz-transition: 1.5s;
+	-o-transition: 1.5s;
+	transition: 1.5s;
+}
+
+.project-img {
+	height: 190px;
+	display: block;
+	margin: 0 auto;
+}
+.project-img:hover {
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+.project-text {
+	width: 90%;
+	position: absolute;
+	margin-left: 5%;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 1.5px;
+	line-height: 30px;
+}
+
+#git-logo {
+	height: 100px;
+	position: absolute;
+	left: 450px;
+	top: 70%;
+	display: none;
+}
+#git-logo:hover {
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+#git-text {
+	position: absolute;
+	width: 60%;
+	top: 85%;
+	left: 20%;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 1.5px;
+	line-height: 30px;
+	display: none
+}
+
+
+
+
+
+
+
+
+
+
+/*PROJECT DETAILS*/
+.details-container {
+	background-color: white;
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+	margin-left: 100%;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+
+.details-content-container {
+	position: relative;
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.close {
+	font-size: 30px;
+	position: absolute;
+	top: 5%;
+}
+.close:hover {cursor: pointer; opacity: 0.7}
+
+.proj-title{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 10%;
+	font-size: 50px;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+
+.proj-info {
+	position: absolute;
+	width: 100%;
+	top:25%;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 1.4px;
+}
+.lighter {font-weight: 300;}
+
+.role {
+	position: absolute;
+	width: 49%;
+	text-align: center;
+}
+
+.tools {
+	position: absolute;
+	width: 49%;
+	text-align: center;
+	left: 50%;
+}
+
+.proj-description {
+	position: absolute;
+	width: 40%;
+	left: 55%;
+	font-size: 15px; /*Adjust*/
+	font-weight: 300; /*Adjust*/
+	letter-spacing: 1.3px; /*Adjust*/
+	line-height: 25px; /*Adjust*/
+}
+.long {line-height:23px; width: 42%; top:34%}
+
+.more-info-button {
+	position: absolute;
+	top: 80%;
+	left: 42%;
+	border: 1px solid rgb(180,180,180);
+	border-radius: 15%;
+	padding: 10px;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+}
+.more-info-button:hover{cursor: pointer; opacity:0.7;}
+#watson{top:83%;}
+
+/*Carousel Stuff Here*/
+.arrow{
+	position: absolute;
+	top: 45%;
+	font-size: 70px;
+	font-weight: 300;
+}
+.l-3{left: 1%}
+.r-3{left: 46%;}
+.l-5{left: 1%}
+.r-5{left: 46%;}
+.arrow:hover{cursor: pointer; opacity:0.7;}
+
+.carousel-container {
+	background-color: rgb(245,245,245);
+	overflow: hidden;
+	width: 40%;
+	height: 35%;
+	position: relative;
+	top: 35%;
+	left: 5%;
+	border: 1px solid rgb(225,225,225);
+}
+
+.carousel-3 {
+	width: 300%;
+	height: 100%;
+	margin-left: 0%;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-transition: all 0.3s;
+}
+
+.carousel-item-3 {
+	width: 33.33%;
+	position: relative;
+	height: 100%;
+	float: left;
+}
+
+.carousel-5 {
+	width: 500%;
+	height: 100%;
+	margin-left: 0%;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-transition: all 0.3s;
+}
+
+.carousel-item-5 {
+	width: 20%;
+	position: relative;
+	height: 100%;
+	float: left;
+}
+
+.item-img {
+	position: relative;
+	height: 100%;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*CONTACT SECTION*/
+#contact-title {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 10%;
+	font-size: 50px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	display: none;
+}
+
+#links {
+	width: 100%;
+	position: relative;
+	top: -2%;
+}
+
+.contact-item {
+	display: inline-block;
+	width: 24%;
+	margin-top: 100px;
+	opacity: 0;
+	-webkit-transition: 1.5s;
+	-moz-transition: 1.5s;
+	-o-transition: 1.5s;
+	transition: 1.5s;
+}
+
+.link {
+	height: 150px;
+	display: block;
+	margin: 0 auto;
+}
+.link:hover {cursor: pointer; opacity: 0.7;}
+
+.link-text {
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+}
+
+#git {
+	-ms-transform: scale(0.75,0.75); /* IE 9 */
+    -webkit-transform: scale(0.75,0.75); /* Safari */
+    -moz-transform: scale(0.75,0.75); /* Firefox */
+    -o-transform: scale(0.75,0.75); /* Opera */
+    transform: scale(0.75,0.75);
+}
+#email{
+	margin-left: 21%;
+}
+
+#back-to-top {
+	position: absolute;
+	width: 12%;
+	left: 44%;
+	top: 80%;
+	text-align: center;
+	margin-top: 100px;
+	opacity: 0;
+	-webkit-transition: 1.5s;
+	-moz-transition: 1.5s;
+	-o-transition: 1.5s;
+	transition: 1.5s;
+}
+#back-to-top:hover * {
+	cursor: pointer; 
+	opacity: 0.7;
+}
+
+.up-arrow {
+	margin-bottom: -30px;
+	margin-top: -50px;
+	font-size: 60px;
+}
+
+#back-to-top-text {
+	font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Classes to add and remove for project details*/
+.no-scroll {
+	overflow: hidden;
+}
+
+.display-none {
+	display: none;
+}
+
+.active-proj {
+	transform: translateX(-100%);
+	-webkit-transform: translateX(-100%);
+	-moz-transform: translateX(-100%);
+	-ms-transform: translateX(-100%);
+	-o-transform: translateX(-100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
