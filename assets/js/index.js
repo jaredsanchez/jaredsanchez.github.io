@@ -208,9 +208,7 @@ $('.close').click(function() {
 
 //more info links
 $('#cList').click(function() {
-	window.open('cListHomepage.html');
-	window.open('listView.html');
-	window.open('itemView.html');
+	window.open('https://www.youtube.com/watch?v=_aJd1hpJ_rg');
 });
 $('#scrapi').click(function() {
 	window.open('scrapiHomepage.html');
