@@ -503,6 +503,13 @@ html, body {
 	font-size: 20px;
 }
 
+#linkedin {
+	-ms-transform: scale(0.75,0.75); /* IE 9 */
+    -webkit-transform: scale(0.75,0.75); /* Safari */
+    -moz-transform: scale(0.75,0.75); /* Firefox */
+    -o-transform: scale(0.75,0.75); /* Opera */
+    transform: scale(0.75,0.75);
+}
 #git {
 	-ms-transform: scale(0.75,0.75); /* IE 9 */
     -webkit-transform: scale(0.75,0.75); /* Safari */
