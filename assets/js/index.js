@@ -207,19 +207,40 @@ $('.close').click(function() {
 });
 
 //more info links
-$('#cList').click(function() {
+$('#visit-stake').click(function() {
+	window.open('http://project-steak.herokuapp.com/');
+});
+$('#watch-stake').click(function() {
 	window.open('https://www.youtube.com/watch?v=_aJd1hpJ_rg');
 });
-$('#scrapi').click(function() {
+$('#stake-code').click(function() {
+	window.open('https://github.com/jaredsanchez/Project_Steak');
+});
+
+$('#scrapi-views').click(function() {
 	window.open('scrapiHomepage.html');
 	window.open('browseScrapbooks.html');
 	window.open('viewScrapbook.html');
 });
-$('#ass').click(function() {
+$('#scrapi-code').click(function() {
+	window.open('https://github.com/jaredsanchez/scrapi');
+});
+
+$('#ass-submission').click(function() {
+	window.open('https://www.hackster.io/team-honey-badgers2/final-report-assassins');
+});
+$('#ass-report').click(function() {
 	window.open('assets/Assassins_Final_Report.pdf');
 });
-$('#watson').click(function() {
+$('#ass-code').click(function() {
+	window.open('https://github.com/jaredsanchez/assassins');
+});
+
+$('#watson-video').click(function() {
 	window.open('https://www.youtube.com/watch?v=NjHF57GV4CA');
+});
+$('#watson-code').click(function() {
+	window.open('https://github.com/jaredsanchez/watson_prototype');
 });
 
 

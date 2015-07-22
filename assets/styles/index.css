@@ -369,10 +369,31 @@ html, body {
 }
 .long {line-height:23px; width: 42%; top:34%}
 
+
+
+
+
+
+.buttons-container-big {
+	width: 60%;
+	height: 10%;
+	position: relative;
+	top: 45%;
+	margin: 0 auto;
+}
+
+.buttons-container-small {
+	width: 40%;
+	height: 10%;
+	position: relative;
+	top: 45%;
+	margin: 0 auto;
+}
+
 .more-info-button {
 	position: absolute;
-	top: 80%;
-	left: 42%;
+	/*top: 80%;*/
+	/*left: 42%;*/
 	border: 1px solid rgb(180,180,180);
 	border-radius: 15%;
 	padding: 10px;
@@ -381,6 +402,16 @@ html, body {
 	letter-spacing: 1.5px;
 }
 .more-info-button:hover{cursor: pointer; opacity:0.7;}
+
+.button-left{left:0%;}
+.button-right{right:0%;}
+
+
+
+
+
+
+
 #watson{top:83%;}
 
 /*Carousel Stuff Here*/
