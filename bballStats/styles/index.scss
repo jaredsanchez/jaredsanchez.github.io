@@ -1,0 +1,165 @@
+// $font-stack:    Helvetica, sans-serif;
+$font-stack: 'Montserrat', sans-serif;
+$primary-color: #05B8CC;
+$light-grey: rgb(240, 240, 240);
+$middle-grey: rgb(200, 200, 200);
+$dark-grey: rgb(145, 145, 145);
+
+@mixin selected {
+	border-color: $primary-color;
+	background-color: $primary-color;
+	color: white;
+	cursor: pointer;
+}
+
+body {
+	font: 100% $font-stack; 
+	color: $dark-grey; 
+	background-color: rgb(250, 250, 250)}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 10px 0px; }
+
+li {
+	border: 1px solid $middle-grey;
+	margin: 5px 5px; 
+	display: inline-block; 
+	padding: 5px; 
+	background-color: white;}
+li:hover {cursor: pointer;}
+
+
+.outer-wrapper {
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	border-color: $light-grey;
+	border-width: 2px;
+	border-bottom-style: solid; 
+	padding-bottom: 25px;}
+
+.selected {
+	@include selected;}
+
+
+
+// 
+// Start of team/player selction
+// 
+#autocomplete {
+	width: 60%;
+	// height: 50px;
+	font-size: 28px;
+	color: $dark-grey;
+	text-align: center; }
+#autocomplete:focus {
+	outline: 0;
+}
+// suggestions dropdown
+.autocomplete-suggestions { border: 1px solid $middle-grey; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: $primary-color; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
+
+
+
+// 
+// Start of Sesaon Selection
+// 
+
+
+
+// 
+// Start of stats selection
+// 
+.inner-wrapper {
+	@extend .outer-wrapper;
+	display: inline-block;
+	width: 329px;
+	border-bottom-style: none; 
+	padding-bottom: 0px;
+	vertical-align: top; }
+
+.middle {
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-right-style: solid; }
+
+h3 {
+	margin-top: 5px; }
+
+
+
+// 
+// Start of plot section
+// 
+#chart_div {
+	display: block;
+	width: 100%;
+	height: 700px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+#generate {
+	@extend li;
+	width: 200px;
+	display: inline-block;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 25px;
+	text-align: center;}
+#generate:hover {
+	@include selected;}
+.generate-wrapper {
+	@extend .outer-wrapper;
+	padding-bottom: 0px;
+	border: 0px none $light-grey;
+}
+#trend-lines {
+	display: inline;
+}
+// tool tip stuff
+#plot-tool-tip {
+	padding:5px 5px 5px 5px; 
+	color:black;
+	font-size: 12px;}
+.bold {
+	font-weight: bold;
+	font-size: 15px;}
+.box {
+	float: left;
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,.2);
+}
+.zero{background-color: #2196f3}
+.one{background-color: #ffc107}
+.two{background-color: #9c27b0}
+.three{background-color: #cddc39}
+.four{background-color: #009688}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

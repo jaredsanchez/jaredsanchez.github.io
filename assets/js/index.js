@@ -206,7 +206,7 @@ $('.close').click(function() {
 	$('#fp-nav').removeClass('display-none');
 });
 
-//more info links
+// project steak links
 $('#visit-stake').click(function() {
 	window.open('http://project-steak.herokuapp.com/');
 });
@@ -216,7 +216,7 @@ $('#watch-stake').click(function() {
 $('#stake-code').click(function() {
 	window.open('https://github.com/jaredsanchez/Project_Steak');
 });
-
+// scrapi links
 $('#scrapi-views').click(function() {
 	window.open('scrapiHomepage.html');
 	window.open('browseScrapbooks.html');
@@ -225,7 +225,7 @@ $('#scrapi-views').click(function() {
 $('#scrapi-code').click(function() {
 	window.open('https://github.com/jaredsanchez/scrapi');
 });
-
+// assassins links
 $('#ass-submission').click(function() {
 	window.open('https://www.hackster.io/team-honey-badgers2/final-report-assassins');
 });
@@ -235,12 +235,19 @@ $('#ass-report').click(function() {
 $('#ass-code').click(function() {
 	window.open('https://github.com/jaredsanchez/assassins');
 });
-
-$('#watson-video').click(function() {
-	window.open('https://www.youtube.com/watch?v=NjHF57GV4CA');
+// // watson links
+// $('#watson-video').click(function() {
+// 	window.open('https://www.youtube.com/watch?v=NjHF57GV4CA');
+// });
+// $('#watson-code').click(function() {
+// 	window.open('https://github.com/jaredsanchez/watson_prototype');
+// });
+// bball stats links
+$('#bball-vis').click(function() {
+	window.open('bballStats/layouts/index.html');
 });
-$('#watson-code').click(function() {
-	window.open('https://github.com/jaredsanchez/watson_prototype');
+$('#bball-code').click(function() {
+	window.open('https://github.com/jaredsanchez/nba_stats');
 });
 
 
